@@ -14,3 +14,60 @@ body {
   display: table;
   clear: both;
 }
+p {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+.border {
+  border-style: solid;
+  border: 1rem / 2;
+  border-color: black;
+  border-radius: 6rem;
+}
+.margins {
+  margin: 3%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: burlywood;
+}
+.div1 {
+  background-color: yellowgreen;
+  border-style: solid;
+  border: 1rem / 2;
+  border-color: black;
+  border-radius: 6rem;
+  margin: 3%;
+}
+.div1 h2 {
+  color: gray;
+}
+.div1 h3 {
+  color: white;
+}
+.div2 {
+  background-color: yellow;
+  border-style: solid;
+  border: 1rem / 2;
+  border-color: black;
+  border-radius: 6rem;
+  margin: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2 p {
+  color: red;
+}
